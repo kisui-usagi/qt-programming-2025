@@ -8,4 +8,6 @@ Item::Item(QGraphicsItem *parent, const QString &pixmapPath) : QGraphicsItem(par
     if (pixmapPath != "") {
         pixmapItem = new QGraphicsPixmapItem(QPixmap(pixmapPath), this);
     }
+    int I = 0;
+    I++;
 }
